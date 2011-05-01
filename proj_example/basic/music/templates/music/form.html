@@ -1,0 +1,21 @@
+{% extends "music/base_music.html" %}
+
+{% block content %}
+<style>
+label {
+clear: top;
+display: inline-block;
+width: 200px;
+}
+</style>
+<form action="" method="POST">
+    {% csrf_token %}
+    {% if form.errors %}
+        <p>{{ form.errors }}
+    {% endif %}
+    <p>
+        {{ form.as_p }}
+    </p>
+    <input type="submit" />
+</form>
+{% endblock %}
