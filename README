@@ -1,2 +1,9 @@
+LogOwl
+======
+
+LogOwl is a logging system based on mongoDB to use with Django Model's.
+This is util for logging every saving action in the tradicional related
+database in a generic way.
+
 Author: Ricardo Lapa Dani
 E-mail: ricardodani@gmail.com
